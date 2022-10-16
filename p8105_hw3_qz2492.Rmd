@@ -155,7 +155,7 @@ accel_clean %>%
 
 ```
   
-Based on this graph, we can tell that this 63 year-old male reaches his activity summit at about 9 o'clock on Friday night, and he is secondly active at about 10 o'clock on Sunday morning. Besides, his activity time is usually low during 11 p.m. to 4 a.m.
+Based on this graph, we can tell that this 63 year-old male reaches his activity summit at about 9 o'clock on Friday night, and he is the second most active at about 10 o'clock on Sunday morning. Besides, his activity frequency is usually low during 11 p.m. to 4 a.m and the average activity times during the day is approximately 400.
 
 ### Problem 3
 ```{r}
@@ -203,7 +203,7 @@ ny_tidy %>%
   
 ```
 
-We can tell from the picture that the average max temperature in July is significantly higher than it in January. Besides, the average max temperature in every station of NYC seemed to have the same tendency of temperature changes, and this had nothing to do with month. The lines in this picture are approximately parallel. But there are still some outliers like the point in January, 1982 and the point in July, 1988, which are extremly lower than the average.
+We can tell from the picture that the average max temperature in July is significantly higher than it in January. Besides, the average max temperature in every station of NYC seemed to have the same tendency of temperature changes, and this had nothing to do with month. The min temperature is in the range of -10 to 10(Celsius) and the max temperature is in the range of 20 to 35(Celsius). The lines in this picture are approximately parallel. But there are still some outliers like the point in January, 1982 and the point in July, 1988, which are extremely lower than the average.
 
 #### Make a two-panel plot showing (i) tmax vs tmin for the full dataset (note that a scatterplot may not be the best option); and (ii) make a plot showing the distribution of snowfall values greater than 0 and less than 100 separately by year.
 ```{r}
